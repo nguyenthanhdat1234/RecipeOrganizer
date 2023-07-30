@@ -1,0 +1,56 @@
+.error {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.search-form {
+    float: left;
+    margin-right: 10px;
+}
+
+.create-button {
+    float: right;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 5px;
+    color: #007bff;
+}
+
+form {
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: 	#32CD32;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+td img {
+    display: block;
+    width: 4cm;
+    height: 3cm;
+    object-fit: cover;
+}
+.breadcumb-text {
+    font-family: 'YourFontName', Arial, sans-serif;
+}

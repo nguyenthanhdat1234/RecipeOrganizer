@@ -1,0 +1,88 @@
+/* favorite.css */
+
+/* Table styles */
+table {
+  margin: 0 auto; /* Center the table */
+  max-width: 1200px; /* Set the maximum width for the table */
+  width: 90%; /* When the table does not exceed the maximum width, it will be stretched to center it */
+  border-collapse: collapse;
+  background-color: #e5f6ed; /* Light shade of green */
+}
+
+table thead th {
+  background-color: #1976d2; /* Dark blue */
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center; /* Center the text horizontally */
+  color: white; /* White text color */
+}
+
+table tbody td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center; /* Center the text horizontally */
+  color: #333; /* Darker shade of gray */
+}
+
+/* Form styles */
+form {
+  display: inline-block;
+}
+
+/* Heading styles */
+h4 {
+  color: #333;
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 40px; /* Spacing below the heading */
+  text-align: center;
+}
+
+h4 {
+  color: #444;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* Custom styles */
+body {
+  background-color: #dff3e8; /* Pale green */
+  font-family: Arial, sans-serif;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column; /* Arrange elements vertically */
+  justify-content: center; /* Center align vertically */
+  align-items: center; /* Center align horizontally */
+}
+
+/* Additional Custom Styles */
+
+/* Adjust table width and center align */
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Add space below the table */
+table {
+  margin-bottom: 40px;
+}
+
+/* Style the remove button */
+input[type="submit"][name="btAction"] {
+  background-color: #f44336; /* Red color code */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Style the remove button on hover */
+input[type="submit"][name="btAction"]:hover {
+  background-color: #d32f2f; /* Darker red color code */
+}
+

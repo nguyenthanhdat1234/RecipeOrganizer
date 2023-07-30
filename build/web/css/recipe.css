@@ -1,0 +1,57 @@
+
+.listCard{
+    gap: 16px;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    margin: 3px 0 3px 0;
+    height: 430px;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: 200px;
+}
+.card-title{
+    line-height: 5px;
+}
+
+.card-body {
+    margin: 3px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    font-family: Times New Roman;
+}
+.card button {
+   
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #1c8314;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+#description {
+    display: -webkit-box; /* Cho phép sử dụng thuộc tính line-clamp */
+    -webkit-line-clamp: 2; /* Số dòng tối đa hiển thị */
+    -webkit-box-orient: vertical; /* Hiển thị dọc, từ trên xuống dưới */
+    overflow: hidden; /* Ẩn nội dung vượt quá số dòng tối đa */
+    flex: 1;
+}
+.rating{
+    color: #d39e00;
+    font-size: 18px;
+}
+
